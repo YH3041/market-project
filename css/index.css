@@ -1,6 +1,8 @@
 .navbar {
-  background-color: #3f4446;
+  background-color: white;
+  /* border-bottom: 1px solid black; */
   height: 40px;
+  margin-bottom: 20px;
 }
 
 .navbar__title {
@@ -25,6 +27,7 @@
   height: 30%;
   width: 40%;
   margin: 20px 0px;
+  background-color: #ececec;
 }
 
 .product__img {
@@ -41,19 +44,39 @@
   margin: 0px 10px;
 }
 
+.product__info span:first-child {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .product__info span {
-  margin: 20px 0px;
+  margin: 12px 0px;
+}
+
+.product__button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product__button span:last-child {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #ffc734;
+  background-color: #ffc734;
 }
 
 .product__form {
   display: flex;
   justify-content: center;
-  height: 80%;
-  width: 80%;
+  height: 85%;
+  width: 85%;
   background-color: gray;
   position: absolute;
   top: 80px;
-  left: 110px;
+  left: 90px;
+  border-radius: 5px;
 }
 
 .product__form__box {
@@ -65,7 +88,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: brown;
+  background-color: #fafafa;
 }
 
 .hidden {
@@ -95,6 +118,9 @@
 .form__wrapper__button span {
   border: 1px solid black;
   padding: 10px 12px;
+  background-color: #ffc734;
+  color: black;
+  font-weight: bold;
 }
 
 .button__section {
@@ -111,5 +137,5 @@
 .button__section span {
   padding: 8px;
   margin: 10px;
-  border: 1px solid black;
+  border: 1px solid #333333;
 }
