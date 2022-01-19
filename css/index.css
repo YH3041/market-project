@@ -1,8 +1,49 @@
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
-  /* border-bottom: 1px solid black; */
   height: 40px;
+  margin: 30px 0px;
+  border-bottom: 1px solid #ececec;
+}
+
+.navbar__title {
+  margin-right: 36px;
   margin-bottom: 20px;
+}
+
+.navbar__left {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.navbar__left i {
+  font-size: 20px;
+}
+
+.navbar__left span {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.navbar__right {
+  margin-right: 60px;
+  margin-bottom: 18px;
+}
+
+.navbar__right span {
+  top: 25px;
+  right: 72px;
+  position: absolute;
+  font-size: 5px;
+  padding: 3px 6px;
+  background-color: red;
+  border-radius: 100%;
+}
+
+.navbar__right i {
+  font-size: 20px;
 }
 
 .navbar__title {
@@ -23,7 +64,7 @@
   display: flex;
   align-items: center;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid #ececec;
   height: 30%;
   width: 40%;
   margin: 20px 0px;
@@ -33,6 +74,8 @@
 .product__img {
   border-radius: 5px;
   margin: 20px;
+  width: 180px;
+  height: 180px;
   max-width: 180px;
   max-height: 180px;
 }
@@ -54,17 +97,35 @@
 }
 
 .product__button {
+  width: 230px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.product__button span:last-child {
-  font-weight: bold;
-  font-size: 20px;
-  padding: 10px;
+.product__button__box {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.product__button__box:hover {
+  background-color: #bdbaba;
+}
+
+.product__button span {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 18px;
   border: 1px solid #ffc734;
   background-color: #ffc734;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.heart__icon {
+  color: red;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .product__form {
@@ -123,19 +184,20 @@
   font-weight: bold;
 }
 
-.button__section {
+footer {
   display: flex;
   justify-content: space-between;
   position: absolute;
   width: 100%;
-  background-color: #373b3e;
-  border-radius: 5px;
+  background-color: #ececec;
   font-size: 18px;
   bottom: 0px;
 }
 
-.button__section span {
+footer span {
+  font-weight: 500;
   padding: 8px;
   margin: 10px;
-  border: 1px solid #333333;
+  border: 1px solid black;
+  border-radius: 5px;
 }
