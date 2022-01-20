@@ -97,7 +97,7 @@
 }
 
 .product__button {
-  width: 230px;
+  width: 220px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -118,7 +118,7 @@
   padding: 10px 18px;
   border: 1px solid #ffc734;
   background-color: #ffc734;
-  margin-right: 5px;
+  margin-left: 5px;
   border-radius: 5px;
 }
 
